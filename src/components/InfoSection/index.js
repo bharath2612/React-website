@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button } from '../ButtonElement'
-import img from '../../images/svg-1.svg'
 import { InfoContainer, 
     InfoWrapper,
     InfoRow,
@@ -15,7 +14,7 @@ import { InfoContainer,
     Img
 }from './InfoElements'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt,primary,dark,dark2  }) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt,primary,dark,dark2  }) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
