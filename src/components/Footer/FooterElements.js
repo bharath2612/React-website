@@ -90,6 +90,12 @@ export const SocialLogo = styled(Link)`
   align-items: center;
   margin-bottom: 16px;
   font-weight: bold;
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    color: #01bf71;
+  }
 `;
 export const WebsiteRights = styled.small`
   color: #fff;
@@ -101,7 +107,6 @@ export const SocialIcons = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 240px;
-
 `;
 export const SocialIconLink = styled.a`
   color: #fff;
@@ -110,7 +115,7 @@ export const SocialIconLink = styled.a`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: scale(1.20);
+    transform: scale(1.2);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
